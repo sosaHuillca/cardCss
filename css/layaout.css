@@ -1,0 +1,53 @@
+:root{
+  --main-BG: #0D192B;
+  --card-BG: #14253D;
+  --font: 'Outfit', sans-serif;
+  --cl-blue-1: #8BACDA;
+  --cl-blue-2: #00F2F2;
+  --cl-white: #EEEEEE;
+
+  --font-l: 300;
+  --font-m: 400;
+  --font-b: 600;
+  --md: 18px;
+}
+.contentCard{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  gap:20px;
+}
+.card{
+  padding: 33px;
+border-radius: 20px;
+max-width:350px;
+width:90%;
+box-sizing:border-box;
+
+}
+.infoCard{
+  display: flex;
+justify-content: space-between;
+
+}
+.infoCard div{
+  display: flex;
+}
+.infoCard img{
+  margin-right: 11px;
+}
+.avatarContent{
+  display: flex;
+}
+.card hr{
+  margin: 20px 0;
+}
+.infoCard img{
+  width: 20px;
+height: 20px;
+}
+.avatarContent img{
+  width: 45px;
+margin-right: 15px;
+height: 45px;
+}

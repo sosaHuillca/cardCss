@@ -1,0 +1,27 @@
+.card{
+  background:#14253D;
+}
+.imagenCard h2{
+  color: white;
+font-size: larger;
+font-weight: revert-layer;
+}
+.imagenCard p{
+  color: var(--cl-blue-1);
+font-size: unset;
+font-weight: lighter;
+}
+
+.infoCard div:first-child span{
+  color: var(--cl-blue-2);
+font-weight: bold;
+}
+.t-resalt{
+  color: var(--cl-blue-1);
+  font-weight: inherit;
+  font-size: medium;
+}
+
+.avatarContent p{
+  color: white;
+}
